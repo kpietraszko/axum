@@ -417,6 +417,7 @@ pub use async_trait::async_trait;
 pub use headers;
 #[doc(no_inline)]
 pub use http;
+#[cfg(feature = "server")]
 #[doc(no_inline)]
 pub use hyper::Server;
 

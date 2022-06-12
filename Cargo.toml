@@ -2,6 +2,7 @@
 members = [
     "axum",
     "axum-core",
+    "axum-router",
     "axum-extra",
     "axum-macros",
 ]
